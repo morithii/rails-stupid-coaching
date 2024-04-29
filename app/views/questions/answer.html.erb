@@ -1,4 +1,6 @@
 <!-- app/views/questions/answer.html.erb-->
+<div class="button-container">
+  <%= link_to 'Ask another question', '/ask' %>
+</div>
 <p>You asked: <%= @question %></p>
 <p>Your coach answers: <%= @answer %></p>
-<%= link_to 'Ask another question', '/ask' %>

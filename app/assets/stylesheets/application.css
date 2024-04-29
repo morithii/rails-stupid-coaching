@@ -13,3 +13,81 @@
  *= require_tree .
  *= require_self
  */
+
+
+ /* app/assets/stylesheets/questions.css */
+
+/* Styles the form */
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styles the text input field */
+input[type="text"] {
+  width: calc(100% - 22px); /* Full width minus padding and border */
+  padding: 10px;
+  margin-bottom: 10px; /* Space below the text input */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Styles the submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color:  background-color: #FF0000 !important
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* app/assets/stylesheets/questions.css */
+
+/* Styles for the questions and answers paragraphs */
+
+
+/* Style for the backlink to the ask form */
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #26ff00;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width: 200px; /* fixed width */
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+
+p {
+  font-size: 16px;
+  color: #333;
+  padding: 8px 20px;
+  background-color: #f0f0f0;
+  border-left: 4px solid #007bff;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.button-container {
+  text-align: center; /* Centers the button within the container */
+  margin-top: 20px; /* Adds some space at the top of the page */
+  margin-bottom: 20px; /* Space before the content starts */
+}
